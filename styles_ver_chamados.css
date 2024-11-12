@@ -1,0 +1,72 @@
+/* Fundo com gradiente suave */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120vh;
+    background: linear-gradient(135deg, #e0e0e0, #c1c1c1);
+}
+
+/* Container de chamados */
+.chamados-container {
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    padding: 60px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 35px;
+    color: #463f3f;
+    margin-bottom: 30px;
+}
+
+/* Lista de chamados */
+.chamado-lista {
+    list-style: none;
+    text-align: left;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.chamado-lista li {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+    transition: background 0.2s ease;
+}
+
+.chamado-lista li:hover {
+    background-color: #f9f9f9;
+}
+
+.chamado-lista li strong {
+    color: #333;
+}
+
+.chamado-lista li em {
+    color: #888;
+}
+
+/* Botão para voltar */
+.button-secondary {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    color: #fff;
+    background: linear-gradient(135deg, #179432, #179432);
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.button-secondary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+}
